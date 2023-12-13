@@ -18,7 +18,7 @@
 .box {
   height: 300px;
   width: 300px;
-  background: conic-gradient(green 3.6deg, white 0deg);
+  /* background: conic-gradient(green 3.6deg,white 0deg); */
   border-radius: 50%;
   position: relative;
   display: flex;
