@@ -1,0 +1,65 @@
+.change-color {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(239, 237, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background: conic-gradient(green 3.6deg, white 0deg);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.box::before {
+  content: "";
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+}
+
+.button  button{
+    height: 40px;
+    width: 140px;
+}
+.bar{
+    height: 10px;
+    width: 250px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+.bars{
+    width: 0%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: green;
+}
+.success {
+  z-index: 6;
+  color: rgb(0, 255, 60);
+  display: none;
+}
+.value{
+  z-index: 6;
+}
+.value h1{
+  font-size: 20px;
+}
